@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/bagel', function(req, res, next) {
-  res.render('bagel', { title: 'Welcome to Bagel' });
+  res.render('bagel', { title: 'Bagel City Gang!' });
 });
 
 module.exports = router;
